@@ -23,6 +23,8 @@ jobs:
       - name: Start Bot
         env:
           MONGO_URL: ${{ secrets.MONGO_URL }}
+          MONGODB_URI: ${{ secrets.MONGO_URL }}
+          MONGODB_URL: ${{ secrets.MONGO_URL }}
           SESSION_ID: ${{ secrets.SESSION_ID }}
           OWNER_NUMBER: ${{ secrets.OWNER_NUMBER }}
         run: npm start
