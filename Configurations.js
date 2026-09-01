@@ -66,5 +66,5 @@ Object.defineProperty(global, "tenorApiKey", {
 });
 
 export default {
-  mongodb: process.env.MONGO_URL || "mongodb+srv://camaravibescooll_db_user:Sekou123456@cluster0.ptfaaub.mongodb.net/?appName=Cluster0",
+  mongodb: process.env.MONGO_URL || "mongodb+srv://camaravibescooll_db_user:Sekou123456@cluster0.ptfaaub.mongodb.net/atlas-md?retryWrites=true&w=majority",
 };
