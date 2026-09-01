@@ -67,4 +67,6 @@ Object.defineProperty(global, "tenorApiKey", {
 
 export default {
   mongodb: process.env.MONGO_URL || "mongodb+srv://camaravibescooll_db_user:Sekou123456@cluster0.ptfaaub.mongodb.net/atlas-md?retryWrites=true&w=majority",
+  SESSION_ID: process.env.SESSION_ID || "SekouAtlas2026",
+  PREFIX: "."
 };
